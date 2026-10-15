@@ -50,6 +50,10 @@ public class MathApp {
         System.out.println("The absolute value is: " + absoluteValue);
         System.out.println("");
 
+        //Question #7
+        System.out.println("The random number is: " + Math.random());
+
+
 
     }
 }
