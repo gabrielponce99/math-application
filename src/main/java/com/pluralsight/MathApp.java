@@ -21,13 +21,17 @@ public class MathApp {
 
         //Question #3
         double radius = 7.25;
-        double diameter = 2 * radius; // This is the diameter formula: d = 2r
-        System.out.println("The diameter of the circle is: " + diameter);
+        double area = 3.14 * (radius * radius); // This is the diameter formula: d = 2r
+        System.out.println("The diameter of the circle is: " + area);
         System.out.println("");
 
         //Question #4
         double square = 5.0;
         double squareRoot = Math.sqrt(square);
         System.out.println("The square root of " + square + " is: " + squareRoot);
+        System.out.println("");
+
+        //Question #5
+
     }
 }
