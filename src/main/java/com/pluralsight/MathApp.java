@@ -1,0 +1,25 @@
+package com.pluralsight;
+
+public class MathApp {
+    public static void main(String[] args) {
+        //Step 1
+        //Question #1
+        double bobSalary = 4500.50;
+        double garySalary = 5000.10;
+        double highestSalary = Math.max(bobSalary, garySalary);
+
+        System.out.println("And the highest salary is: " + highestSalary);
+        System.out.println(""); //This is a space I'm creating between prints
+
+        //Question #2
+        double carPrice = 25000.55;
+        double truckPrice = 70000.67;
+        double lowestPrice = Math.min(carPrice, truckPrice);
+
+        System.out.println("The lowest price is: " + lowestPrice);
+        System.out.println("");
+
+        //Question #3
+        
+    }
+}
