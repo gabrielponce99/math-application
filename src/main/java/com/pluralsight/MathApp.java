@@ -32,7 +32,15 @@ public class MathApp {
         System.out.println("");
 
         //Question #5
+        double x1 = 5;
+        double x2 = 85;
+        double y1 = 10;
+        double y2 = 50;
 
+        double distanceX = x2 - x1;
+        double distanceY = y2 - y1;
+
+        System.out.println("The distance between (5, 10) and (85, 50) is: (" + distanceX + ", " + " " + distanceY + ")");
 
     }
 }
