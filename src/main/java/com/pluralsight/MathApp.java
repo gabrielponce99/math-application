@@ -52,6 +52,20 @@ public class MathApp {
 
         //Question #7
         System.out.println("The random number is: " + Math.random());
+        System.out.println("");
+
+        //Question #8
+        int minutes = 60;
+        int hours = 24;
+        int days = 24;
+        int milliseconds = 1000;
+        int daysToMinutes = (minutes * hours) * days;
+        int daysToMilliseconds = milliseconds * daysToMinutes;
+        System.out.println("There are " + daysToMinutes + " minutes in " + days + " days.");
+        System.out.println("There are " + daysToMilliseconds + " milliseconds in " + days + " days.");
+
+
+
 
 
 
