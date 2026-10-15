@@ -21,8 +21,8 @@ public class MathApp {
 
         //Question #3
         double radius = 7.25;
-        double area = 3.14 * (radius * radius); // This is the diameter formula: d = 2r
-        System.out.println("The diameter of the circle is: " + area);
+        double area = Math.PI * (radius * radius); // This is the diameter formula: d = 2r
+        System.out.println("The area of the circle is: " + area);
         System.out.println("");
 
         //Question #4
@@ -32,6 +32,7 @@ public class MathApp {
         System.out.println("");
 
         //Question #5
+
 
     }
 }
