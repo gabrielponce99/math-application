@@ -41,6 +41,15 @@ public class MathApp {
         double distanceY = y2 - y1;
 
         System.out.println("The distance between (5, 10) and (85, 50) is: (" + distanceX + ", " + " " + distanceY + ")");
+        System.out.println("");
+
+        //Question #6
+        double findAbsoluteValue = -3.8;
+
+        double absoluteValue = Math.abs(findAbsoluteValue);
+        System.out.println("The absolute value is: " + absoluteValue);
+        System.out.println("");
+
 
     }
 }
