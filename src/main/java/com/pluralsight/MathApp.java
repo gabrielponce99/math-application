@@ -20,6 +20,9 @@ public class MathApp {
         System.out.println("");
 
         //Question #3
-        
+        double radius = 7.25;
+        double diameter = 2 * radius; // This is the diameter formula: d = 2r
+        System.out.println("The diameter of the circle is: " + diameter);
+        System.out.println("");
     }
 }
