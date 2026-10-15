@@ -24,5 +24,10 @@ public class MathApp {
         double diameter = 2 * radius; // This is the diameter formula: d = 2r
         System.out.println("The diameter of the circle is: " + diameter);
         System.out.println("");
+
+        //Question #4
+        double square = 5.0;
+        double squareRoot = Math.sqrt(square);
+        System.out.println("The square root of " + square + " is: " + squareRoot);
     }
 }
